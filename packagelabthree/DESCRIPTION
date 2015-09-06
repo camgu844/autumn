@@ -1,0 +1,9 @@
+Package: packagelabthree
+Type: Package
+Title: Calculates the greatest common divisor of two numbers
+Version: 0.0.0.9000
+Date: 2015-09-06
+Author: Camilla Skoglund
+Maintainer: Camilla Skoglund <camgu844@student.liu.se>
+Description: The package calculates the greatest common divisor of two numbers by using the euclidian algorithm.
+License: Free
