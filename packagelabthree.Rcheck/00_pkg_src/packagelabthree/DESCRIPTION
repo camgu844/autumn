@@ -9,4 +9,4 @@ Description: The package calculates the greatest common divisor of two numbers b
 License: Free
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2015-09-07 10:18:32 UTC; camgu49
+Packaged: 2015-09-07 19:38:11 UTC; camgu49

@@ -1,6 +1,6 @@
-#' euclidean: A package using the euclidian algorithm to find the greatest common divisor of two integers.
+#' packagelabthree: A package containing the euclidian algorithm that finds the greatest common divisor of two integers.
 #'
 #' @docType package
-#' @name euclidean
+#' @name packagelabthree
 NULL
 #> NULL

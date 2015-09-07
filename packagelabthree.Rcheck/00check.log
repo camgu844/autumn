@@ -15,8 +15,8 @@
 * checking for portable file names ... OK
 * checking whether package 'packagelabthree' can be installed ... WARNING
 Found the following significant warnings:
-  Warning: C:/Users/camgu49/AppData/Local/Temp/RtmpSuBcux/Rbuild18402b2a4183/packagelabthree/man/packagelabthree-package.Rd:27: All text must be in a section
-  Warning: C:/Users/camgu49/AppData/Local/Temp/RtmpSuBcux/Rbuild18402b2a4183/packagelabthree/man/packagelabthree-package.Rd:28: All text must be in a section
+  Warning: C:/Users/camgu49/AppData/Local/Temp/RtmpU1lS60/Rbuild14f039d1dfe/packagelabthree/man/packagelabthree-package.Rd:27: All text must be in a section
+  Warning: C:/Users/camgu49/AppData/Local/Temp/RtmpU1lS60/Rbuild14f039d1dfe/packagelabthree/man/packagelabthree-package.Rd:28: All text must be in a section
 See 'C:/Users/camgu49/Documents/R - working directory for R course 2015/gitfiler/autumn/packagelabthree.Rcheck/00install.out' for details.
 * checking installed package size ... OK
 * checking package directory ... OK
