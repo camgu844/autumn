@@ -50,4 +50,40 @@ prepare_Rd: packagelabthree-package.Rd:28: All text must be in a section
 prepare_Rd: wiki_graph.Rd:19-21: Dropping empty section \details
 prepare_Rd: wiki_graph.Rd:22-24: Dropping empty section \source
 * checking Rd metadata ... OK
-* checking Rd line widths ...
+* checking Rd line widths ... OK
+* checking Rd cross-references ... WARNING
+Unknown package '<pkg>' in Rd xrefs
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... WARNING
+Warning: parse error in file 'packagelabthree-Ex.R':
+21:11: unexpected symbol
+20: 
+21: ~~ simple examples
+              ^
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... WARNING
+  Warning: package needs dependence on R (>= 2.10)
+* checking examples ... ERROR
+Running examples in 'packagelabthree-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: packagelabthree-package
+> ### Title: Calculates the greatest common divisor of two numbers
+> ### Aliases: packagelabthree-package packagelabthree
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> ~~ simple examples of the most important functions ~~
+Error: unexpected symbol in "~~ simple examples"
+Execution halted
+* checking for unstated dependencies in 'tests' ... OK
+* checking tests ... OK
+  Running 'testthat.R'
+* DONE
+Status: 1 ERROR, 6 WARNINGs, 1 NOTE

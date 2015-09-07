@@ -7,3 +7,4 @@ Author: Camilla Skoglund
 Maintainer: Camilla Skoglund <camgu844@student.liu.se>
 Description: The package calculates the greatest common divisor of two numbers by using the euclidian algorithm.
 License: Free
+Suggests: testthat
