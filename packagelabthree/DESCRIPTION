@@ -6,5 +6,6 @@ Date: 2015-09-06
 Author: Camilla Skoglund
 Maintainer: Camilla Skoglund <camgu844@student.liu.se>
 Description: The package calculates the greatest common divisor of two numbers by using the euclidian algorithm.
-Licence: GPL
+Depends: R (>= 3.1.0)
+License: GPL
 Suggests: testthat
