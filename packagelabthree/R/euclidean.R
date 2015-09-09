@@ -10,8 +10,9 @@
 
 # 1.1.1 euclidean()
 euclidean <- function (a,b) {
-  stopifnot(is.numeric(a) && length(a)==1)
-  stopifnot(is.numeric(b) && length(b)==1)
+  whole_number <- a %% 1
+  stopifnot(is.numeric(a) && length(a)==1 && (whole_number(a)==0))
+  stopifnot(is.numeric(b) && length(b)==1 && (whole_number(a)==0))
   while (!b==0) {
     t <- b
     b <- a %% b
